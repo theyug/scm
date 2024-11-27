@@ -1,4 +1,4 @@
-package com.scm.services;
+package com.example.scm_deploy.services;
 
 import com.scm.entities.User;
 
