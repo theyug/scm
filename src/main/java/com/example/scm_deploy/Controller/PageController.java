@@ -3,7 +3,7 @@ package com.example.scm_deploy.Controller;
 import com.example.scm_deploy.entities.User;
 import com.example.scm_deploy.forms.Userform;
 import com.example.scm_deploy.services.UserService;
-import com.scm.helpers.Message;
+import com.example.scm_deploy.helpers.Message;
 import com.example.scm_deploy.helpers.MessageType;
 import jakarta.servlet.http.HttpSession;
 import lombok.Getter;

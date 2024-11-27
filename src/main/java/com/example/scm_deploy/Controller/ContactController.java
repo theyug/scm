@@ -4,7 +4,7 @@ import com.example.scm_deploy.entities.Contact;
 import com.example.scm_deploy.entities.User;
 import com.example.scm_deploy.forms.Contactform;
 import com.example.scm_deploy.helpers.Helper;
-import com.scm.helpers.Message;
+import com.example.scm_deploy.helpers.Message;
 import com.example.scm_deploy.helpers.MessageType;
 import com.example.scm_deploy.services.ContactService;
 import com.example.scm_deploy.services.UserService;

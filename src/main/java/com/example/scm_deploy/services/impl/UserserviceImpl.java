@@ -1,10 +1,10 @@
-package com.scm.services.impl;
+package com.example.scm_deploy.services.impl;
 
-import com.scm.entities.User;
-import com.scm.helpers.AppConstants;
-import com.scm.helpers.ResourceNotFoundException;
-import com.scm.repositories.UserRepo;
-import com.scm.services.UserService;
+import com.example.scm_deploy.entities.User;
+import com.example.scm_deploy.helpers.AppConstants;
+import com.example.scm_deploy.helpers.ResourceNotFoundException;
+import com.example.scm_deploy.repositories.UserRepo;
+import com.example.scm_deploy.services.UserService;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;

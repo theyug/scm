@@ -1,4 +1,4 @@
-package com.scm.Controller;
+package com.example.scm_deploy.Controller;
 
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,9 +7,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ModelAttribute;
 
-import com.scm.entities.User;
-import com.scm.helpers.Helper;
-import com.scm.services.UserService;
+import com.example.scm_deploy.entities.User;
+import com.example.scm_deploy.helpers.Helper;
+import com.example.scm_deploy.services.UserService;
 
 @ControllerAdvice
 public class RootController {

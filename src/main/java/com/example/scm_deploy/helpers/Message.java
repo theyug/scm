@@ -1,4 +1,4 @@
-package com.scm.helpers;
+package com.example.scm_deploy.helpers;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -15,7 +15,7 @@ public class Message {
 
     private String content;
     @Builder.Default
-    private com.scm.helpers.MessageType type = com.scm.helpers.MessageType.blue;
+    private com.example.scm_deploy.helpers.MessageType type = com.example.scm_deploy.helpers.MessageType.blue;
     public String type() {
         return type.name().toLowerCase(); // Return type as lowercase string for Tailwind classes
     }

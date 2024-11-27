@@ -1,6 +1,6 @@
 package com.example.scm_deploy.services;
 
-import com.scm.entities.User;
+import com.example.scm_deploy.entities.User;
 
 import java.util.List;
 import java.util.Optional;
